@@ -1,0 +1,11 @@
+st = "welcome     to a    game"
+sa = st.split()
+
+new_text = []
+for chr in sa:
+ new_text.append(chr[::-1])
+
+again = " ".join(new_text)
+print(again)
+
+#programme pour inverser string et que les mot reste dans leur place
